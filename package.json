@@ -1,14 +1,21 @@
 {
-  "name": "jokubas.narijauskas",
+  "name": "devbridge-for-testers",
   "version": "1.0.0",
+  "description": "tester academy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joksas-ai/devbridge-for-testers.git"
+  },
+  "author": "Jokubas",
   "license": "ISC",
-  "keywords": [],
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/Joksas-ai/devbridge-for-testers/issues"
+  },
+  "homepage": "https://github.com/Joksas-ai/devbridge-for-testers#readme",
   "devDependencies": {
     "@playwright/test": "^1.13.1"
   }
