@@ -2,13 +2,14 @@
 
 /** @type {import('@playwright/test').PlaywrightTestConfig} */
 const config = {
-    use: {
-      headless: false,
-          viewport: { width: 1280, height: 720 },
-              launchOptions: {
-              slowMo: 750,
-          },
-    },
-  };
-  
-  module.exports = config;
+  use: {
+    screenshot: 'on',
+    headless: false,
+        viewport: { width: 1280, height: 720 },
+            launchOptions: {
+            slowMo: 150,
+        },
+  },
+};
+
+module.exports = config;
